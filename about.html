@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/about-bg.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>About Me</h1>
+              <span class="subheading">This is what we do.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>At At Opera Dental Clinic we want you to have the best dental experience possible. The entire dental team is dedicated to ensuring that you receive the highest quality dental care. The clinic provides a full range of general and orthodontic treatments for patients. We are unique in that we are one of the few practices in Ireland using the YSGG waterlase laser as well as a diode laser.</p>
+          <p>We believe in helping patients to look and feel their best. Our mission is to provide superior quality of service with an emphasis on patient education. Our ultimate goal is to empower patients to make informed lifestyle choices that build strong teeth, healthy gums, beautiful smiles, and life-long vitality.</p>
+          <p>All our dentists, nurses and hygienist are registered with the Irish Dental Council and are indemnified where appropriate. The practice is fully computerised and is equipped with the latest dental equipment and digital technology. We offer dental care in an environment befitting the 21st century. Our philosophy is simple. We are committed to providing you with high-quality, state-of-the-art dental care and to make your visit to our clinic as pleasant and as comfortable as possible. We provide an atmosphere for our patients to make positive choices for their dental health. We are consistently working to improve our technical skills, with a strong commitment to continuing education.</p>
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}

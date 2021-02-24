@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/blue.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Endodontics</h1>
+              <span class="subheading">Professional Root canal Treatment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>The nerve of the tooth can be damaged by decay or injury. Occasionally the nerve dies and an abscess can follow. To save the tooth, root canal treatment is required. As the illustration shows the tooth is cleaned, shaped and filled with a biocompatible material. At Dublin Dental we perform root canal treatment on single rooted teeth and multi-rooted back teeth.</p>
+          <p>Although it subsequently has no nerve (is dead), it is regarded as a healthy tooth. Root canal treatment is usually a painless procedure and avoids the need for an extraction. It is almost always advisable to save a tooth where possible. The tooth may need to be crowned afterwards as root treated back teeth can fracture more easily. Front teeth do not always need a crown after root treatment. Occasionally there may be a need for bleaching if they darken. Our Endodontics use the latest technology in root treatments such as nickel titanium rotary files, digital x-rays and apex locators to make your visits as comfortable and pleasant as possible.</p>
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}

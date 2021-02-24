@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/spec.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Orthodontics</h1>
+              <span class="subheading">Providing the most beautiful smiles for our clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>We provide orthodontics to improve your smile whatever your age. We treat the growing child, the adolescent and the adult. Adult orthodontics has become more popular throughout the years. Patients are now keen to have the beautiful smile they have longed for. We provide a range of Orthodontic treatments, including 6 months braces when suitable. “Just because you’re an adult does not mean you have missed the boat!” We provide Orthodontics to improve and suit your lifestyle. Call today for an assessment.</p>
+          <p>Fixed Braces - Traditional braces use brackets to accurately position the teeth. The braces are bonded to the teeth and cannot be removed by the patient. There are many systems available from metal (Damon) clear aesthetic braces.</p>
+          <p>Removable Braces - Simple treatments can be carried out with removable appliance. Precise tooth position is not usually attained with removable braces. Accurate positioning requires fixed braces in most cases. If removable appliances are appropriate to you, we will offer them as a treatment option.</p>
+          <p>FUNCTIONAL APPLIANCES - Functional orthodontic appliances use the muscles of the face and jaws to correct the bite and establish balance between the upper jaw and the lower jaw. They are usually used for growing children and adolescents. They help to protect teeth because they reduce the “prominence ” of the front teeth. We at Dublin Dental Clinic will discuss functional appliances with you if you are a suitable case.</p>
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}

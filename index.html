@@ -1,0 +1,85 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/home-bg.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>Opera Dental Clinic</h1>
+              <span class="subheading">58 Capel Street, Dublin, Ireland</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-preview">
+            <a href="/invis">
+              <h2 class="post-title">
+                Invisalign Clear Braces
+              </h2>
+              <h3 class="post-subtitle">
+                Clear aligners are a discreet, modern alternative to ‘train tracks’. You can improve your life by improving your smile.
+              </h3>
+            </a>
+            <p class="post-meta">For Appointment
+              <a href="/clickone">Click here</a>
+              Thank you!</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="/ortho">
+              <h2 class="post-title">
+                Orthodontics
+              </h2>
+              <h3 class="post-subtitle">
+                Providing the most beautiful smiles for our clients
+              </h3>
+            </a>
+            <p class="post-meta">For Appointment
+              <a href="/clicktwo">Click here</a>
+              Thank you!</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="/cosmetic">
+              <h2 class="post-title">
+                Cosmetic Dentistry
+              </h2>
+              <h3 class="post-subtitle">
+                We are highly skilled in providing smile makeovers. Our aim is for you to smile with confidence.
+              </h3>
+            </a>
+            <p class="post-meta">For Appointment
+              <a href="#">Click here</a>
+              Thank you!</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="/endo">
+              <h2 class="post-title">
+                Endodontics
+              </h2>
+              <h3 class="post-subtitle">
+                A smile makeover involves the transformation of the teeth by the utilisation of crowns and veneers.
+              </h3>
+            </a>
+            <p class="post-meta">For Appointment
+              <a href="#">Click here</a>
+              Thank you!</p>
+          </div>
+          <hr>
+          <!-- Pager -->
+          <div class="clearfix">
+            <a class="btn btn-primary float-right" href="#">Home →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endblock %}
